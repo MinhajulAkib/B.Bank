@@ -7,6 +7,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
     const userPassword = passwordField.value;
     // check email and password
     if (userEmail == 'akib@minhaj' && userPassword == 'secret') {
+        //redirect page
         window.location.href = 'banking.html';
     }
 });
